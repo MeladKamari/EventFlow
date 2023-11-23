@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <Import Project="../Common.props" />
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
@@ -23,7 +23,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
     <PackageReference Include="NEST" Version="7.8.2" />
-    <PackageReference Include="newtonsoft.json" Version="11.0.2" />    
+    <PackageReference Include="newtonsoft.json" Version="13.0.1" />    
   </ItemGroup>
 
   <ItemGroup>
